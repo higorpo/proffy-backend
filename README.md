@@ -32,7 +32,13 @@ Este projeto foi desenvolvido utilizando-se das tecnologias abaixo:
 
 <a id="resultados"></a>
 ## :heavy_check_mark: Resultados
-<p>Ainda em progresso!</p>
+<p>
+Como resultado da semana da Next Level Week foi desenvolvido um servidor em Node.js capaz de responder requisições das aplicações web e mobile.
+Veja os outros repositórios deste mesmo projeto:
+</p>
+<a href="https://github.com/higorpo/proffy-web">Versão web</a>
+<br/>
+<a href="https://github.com/higorpo/proffy-mobile">Versão mobile</a>
 
 <a id="comousar"></a>
 ## :fire: Como usar?
@@ -45,6 +51,7 @@ git clone https://github.com/higorpo/proffy-backend.git
 
 Instale as dependências do projeto
 ```sh 
+cd proffy-web
 yarn
 ```
 
@@ -55,6 +62,5 @@ yarn knex:migrate
 
 Inicie o servidor
 ```sh 
-cd ../web
 yarn start
 ```
